@@ -116,9 +116,7 @@ img {
             margin-left: 50px;
         }
 
-    .team {
-        background-color: var(--section-bg-color);
-    }
+    
     .visually-hidden {
         position: absolute;
         width: 1px;
@@ -349,6 +347,10 @@ justify-content: center;
 gap: 30px;
 }
 
+
+
+/*--------------------------команда---------------------------*/
+
 .team-name{
     font-weight: 500;
     
@@ -379,6 +381,9 @@ gap: 30px;
     margin-left: 30px;
 }
 
+.team {
+    background-color: var(--section-bg-color);
+}
 
 .team-item {
     max-width: 270px;
@@ -441,7 +446,7 @@ margin-bottom: 10px;
     color: var(--second-contact-text-color);
 }
 
-/*-----------------------gallery---------------------------*/
+/*-----------------------галерея---------------------------*/
 .gallery-list {
     display: flex;
     flex-wrap: wrap;
