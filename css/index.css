@@ -59,13 +59,14 @@ img {
 /*-----------------------------------------------header------------------------------------------------*/
 
     .logo{
-    margin: 24px 93px 24px 0;
+    margin: 93px;
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;  
     line-height: 1.42;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 93px;
 }
      
        
@@ -84,11 +85,14 @@ img {
     .team-list {
     display: flex;}    
 
-    .hero,.footer{
+    .hero {
         background-color: var(--dark-bg-color);
+        padding-top: 200px ;
+        padding-bottom: 200px;
+    
     }
 
-
+  
     .main-line {
      display: flex;
     align-items: center;
@@ -225,16 +229,16 @@ img {
 
 
     .hero-title { 
-    margin-bottom: 30;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--first-contrast-text-color);
     }
-
+ 
      .button {
      border-radius: 4px;
      border: 0px;
@@ -334,7 +338,7 @@ padding-bottom: 0;
 
 .work-title,.team-title{
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -360,11 +364,13 @@ gap: 30px;
 
 .team-position{
     color: var(--text-color);
+    font-size: 16px;
+    line-height: 19px;
 
 }
 .team-title{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 42;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -412,12 +418,15 @@ padding-bottom: 30px;
 font-weight: 500;
 color: var(--title-text-color);
 margin-bottom: 10px;
+font-size: 16px;
+line-height: 19px;
 }
 
 /*-------------------------------------------Подвал------------------------------------------*/
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    background: #2f302f; ;
 }
 
 .footer-address-link{
