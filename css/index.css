@@ -67,14 +67,17 @@ img {
 /*-----------------------------------------------header------------------------------------------------*/
 
     .logo{
-    margin: 24px 93px 24px 0;
+   
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;  
     line-height: 1.42;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    margin-right: 93px;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     
 
 }
@@ -89,9 +92,18 @@ display: flex;
  margin-left: auto;
         }
        
-    
+    .site-nav,
+    .team-list {
+    display: flex;}
 
-    .logo-accent{
+
+        .site-nav,
+        .team-list {
+        display: flex;
+        }
+    
+    
+        .logo-accent{
     color: var(--title-text-color);
     }
     .footer-logo-accent{
@@ -99,22 +111,11 @@ display: flex;
     }
 
 
-    .site-nav,
-    .team-list {
-    display: flex;}    
+        
 
-    .hero {
-        background-color: var(--dark-bg-color);
-        padding-top: 200px ;
-        padding-bottom: 200px;
-        text-align: center;
     
-    }
 
-        .site-nav,
-        .team-list {
-        display: flex;
-        }
+        
 
   
     .main-line {
@@ -258,12 +259,15 @@ display: flex;
  /*--------------------------------------блок-герой--------------------------------------------------------- */
 
 
-           .hero {
-               background-color: var(--dark-bg-color);
-               padding-top: 200px;
-               padding-bottom: 200px;
-    
-           }
+  
+
+ .hero {
+ background-color: var(--dark-bg-color);
+ padding-top: 200px;
+ padding-bottom: 200px;
+ text-align: center;
+        
+                   }
  
  
  .hero-title { 
@@ -271,11 +275,14 @@ display: flex;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--first-contrast-text-color);
     }
+    
+    
+
+
  
      
     /*--------------------------buttons----------------------*/
@@ -357,9 +364,13 @@ margin-right: 0;
 .features {
     font-size: 14px;
     letter-spacing: 0.03em;
+    
 }
+ h1{padding-top: 696px;}
 
-.features-title {
+
+
+    .features-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -509,7 +520,7 @@ line-height: 19px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-right: -15px;
+    margin-top: -30px;
 
     
 }
@@ -517,7 +528,7 @@ line-height: 19px;
 
 .gallery-list>.item {
     flex-basis: calc(100% / 3 - 30px);
-    margin-right: 15px;
+    margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
     overflow: hidden;
