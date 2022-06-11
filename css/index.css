@@ -74,10 +74,10 @@ img {
     line-height: 1.42;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
     
 
 }
@@ -97,11 +97,7 @@ display: flex;
     display: flex;}
 
 
-        .site-nav,
-        .team-list {
-        display: flex;
-        }
-    
+        
     
         .logo-accent{
     color: var(--title-text-color);
@@ -266,6 +262,7 @@ display: flex;
  padding-top: 200px;
  padding-bottom: 200px;
  text-align: center;
+ 
         
                    }
  
@@ -278,6 +275,9 @@ display: flex;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--first-contrast-text-color);
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     
@@ -297,6 +297,7 @@ display: flex;
      font-size: 16px;
      line-height: 1.87;
      cursor: pointer;
+    border: transparent;
     }
 
     .button.primary {
@@ -308,30 +309,42 @@ display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 10px 32px;
+    /*padding: 10px 32px;*/
+    padding: 10px 32px 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    border: transparent;
+   
 }
 
     .button.primary:hover,
     .button.primary:focus{
     background-color: rgba(24, 140, 232, 1);
+    color: var(--second-font-color);
     }
 
     .button.secondary{
         color: var(--title-text-color);
-        background-color: var(--primary-bg-color);
+        background-color: rgba(245, 244, 250, 1);
         line-height: 1.62;
+        font-weight: 500;
         text-align: center;
         letter-spacing: 0.03em;
-        padding: 6px 22px;
+        /*padding: 6px 22px;*/
+        padding: 6px 22px 6px 22px;
+        cursor: pointer;
+        border: transparent;
+        border-radius: 4px;
+        margin-right: 8px;
 
     }
 
      .button-list {
      display: flex;
      margin-bottom: 50px;
-    justify-content: center; 
+     justify-content: center; 
         }
 
     .button-list .current,
@@ -366,17 +379,16 @@ margin-right: 0;
     letter-spacing: 0.03em;
     
 }
- h1{padding-top: 696px;}
 
-
-
-    .features-title {
+.features-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
-    margin-bottom: 10px;
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .features-text {
@@ -413,13 +425,12 @@ gap: 30px;
     font-weight: 500;
     color: var(--title-text-color);
     margin-bottom: 10px
-    font-size: 16px;
-    line-height: 19px;}
+   }
 
 .team-position{
     color: var(--text-color);
     font-size: 16px;
-    line-height: 19px;
+    
 
 }
 .team-title{
@@ -528,11 +539,11 @@ line-height: 19px;
 
 .gallery-list>.item {
     flex-basis: calc(100% / 3 - 30px);
-    margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
     overflow: hidden;
     background-color: var(--primary-bg);
+    
 }
 
 .image-text{
