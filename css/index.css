@@ -83,6 +83,11 @@ img {
 }
 
 
+.logo-accent{
+    color: var(--title-text-color);
+    }
+
+
 .header {
     border-bottom: 1px solid #ececec;
 }
@@ -99,13 +104,8 @@ display: flex;
 
         
     
-        .logo-accent{
-    color: var(--title-text-color);
-    }
-    .footer-logo-accent{
-        color: var(--first-contrast-text-color);
-    }
-
+        
+   
 
         
 
@@ -199,21 +199,7 @@ display: flex;
     }
 
   
-.link{
-    text-align: left;
-    width: 76px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;      
-           
-    }
+
     
 
 
@@ -366,6 +352,8 @@ display: flex;
 
 .features-list .item {
 margin-right: 30px;
+width: 270px;
+/*min-height: 75px;*/
 }
 
 .features-list .item:last-child {
@@ -386,16 +374,15 @@ margin-right: 0;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
-    margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
+    margin-top: 94px;
+    margin-bottom: 32px;
 }
 
 .features-text {
     line-height: 1.71;
     color: var(--text-color);
-    max-width: 270px;
-     min-height: 75px;
+   
 }
 
 .features-section {
@@ -499,6 +486,8 @@ line-height: 19px;
     margin-bottom: 20px;
 }
 
+
+
 .footer-address-link{
     font-style: normal;
     font-size: 14px;
@@ -526,6 +515,32 @@ line-height: 19px;
         letter-spacing: 0.03em;
 }
 
+.footer-address-contact {
+    margin-top: 9px;
+}
+
+
+ .footer-logo{
+    font-size: 26px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.42;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        
+        
+            
+
+}
+
+
+
+ .footer-logo-accent {
+     color: var(--first-contrast-text-color);
+     
+    }
+
+ 
 /*-----------------------галерея---------------------------*/
 .gallery-list {
     display: flex;
@@ -539,10 +554,10 @@ line-height: 19px;
 
 .gallery-list>.item {
     flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-bottom: 30px;
-    overflow: hidden;
+    margin-left: +30px;
+    margin-bottom: +30px;
     background-color: var(--primary-bg);
+    
     
 }
 
@@ -557,6 +572,7 @@ line-height: 19px;
  font-size: 18px;
  line-height: 36px;
  letter-spacing: 0.06em;
+ margin-bottom: 4px;
  color: var(--title-text-color);               
             
 }
