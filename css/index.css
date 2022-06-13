@@ -323,7 +323,7 @@ display: flex;
         cursor: pointer;
         border: transparent;
         border-radius: 4px;
-        margin-right: 8px;
+        
 
     }
 
@@ -493,7 +493,8 @@ line-height: 19px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;    
 }
 
 
@@ -514,11 +515,11 @@ line-height: 19px;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-}
+        margin-top: 9px;
 
-.footer-address-contact {
-    margin-top: 9px;
-}
+    }
+
+
 
 
  .footer-logo{
@@ -538,7 +539,7 @@ line-height: 19px;
 
  
  .footer-addres {
-     margin-bottom: 9px;}
+     margin-top: 9px;}
 
 
 
