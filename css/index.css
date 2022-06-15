@@ -20,28 +20,32 @@
             margin: 0;
         }
 
-
-       img {
-         display: block;
-         max-width: 100%;
-         height: auto;
-                }         
-
-
-   ul,ol {
+       ul,ol,li {
        margin: 0;
        padding: 0;
+       list-style: none;
    }
+
+   a {
+       text-decoration: none;
+   }
+      
+   
+          
+
+
+   
+   
+   
     
     
-    
-    /*------------body----------------*/
+    /*----------------------------------------body------------------------------------------*/
     
     body {
     font-family: "Roboto",sans-serif;
     color: var(--text-color);
     background-color: var(--primary-bg-color);
-    
+    letter-spacing: 0.03em;
      
 }
 
@@ -57,81 +61,32 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+.team {
+    background-color: var(--section-bg-color);
+   } 
 img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
+         display: block;
+         max-width: 100%;
+         height: auto;
+                }  
+
+               
 
 /*-----------------------------------------------header------------------------------------------------*/
-
-    .logo{
-   
-    font-size: 26px;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;  
-    line-height: 1.42;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-   
-    
-
-}
-
-
-.logo-accent{
-    color: var(--title-text-color);
-    }
-
-
-.header {
+    .header {
     border-bottom: 1px solid #ececec;
-}
-     
-.header-contact {
+    }
+    .header-contact {
 display: flex;
  margin-left: auto;
         }
-       
     .site-nav,
     .team-list {
     display: flex;}
-
-
-        
     
-        
-   
-
-        
-
-    
-
-        
-
-  
-    .main-line {
-     display: flex;
-    align-items: center;
-    }
-
-    .header-contact {
-    display: flex;
-    margin-left: auto;
-    }
-
-
-        .header-contact .item+.item {
+    .header-contact .item+.item {
             margin-left: 50px;
         }
-
-
-        /*------------nav-------------*/
-
     .site-nav .item {
     margin-right: 50px;
     }
@@ -183,6 +138,8 @@ display: flex;
          color: var(--accent-color);
             }
         
+    
+    
     .link-current{
     text-align: left;
     width: 49px;
@@ -198,12 +155,7 @@ display: flex;
     color: #2196F3;  
     }
 
-  
-
-    
-
-
-    .header-contact-link{
+  .header-contact-link{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -216,6 +168,20 @@ display: flex;
     letter-spacing: 0.02em;
     color:#757575;
     }
+
+  .link-current,.link {
+    text-decoration: none;
+    list-style-type:none;
+    }
+    a {
+        text-decoration:none;
+    }
+    ul {
+        list-style: none;
+    }  
+
+
+    
    
 
 
@@ -226,19 +192,39 @@ display: flex;
 
 
 
-    .link-current,.link {
-    text-decoration: none;
-    list-style-type:none;
-    }
-    a {
-        text-decoration:none;
-    }
-    ul {
-        list-style: none;
+    
+    
+    /*-------------------------------------------logo-----------------------------------------------------*/
+    .logo{
+   
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;  
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
+    
+
+}
+
+
+.logo-accent{
+    color: var(--title-text-color);
     }
 
 
- /*--------------------------------------блок-герой--------------------------------------------------------- */
+ .main-line {
+     display: flex;
+    align-items: center;
+    }
+     
+
+       
+/*--------------------------------------блок-герой--------------------------------------------------------- */
 
 
   
@@ -271,7 +257,7 @@ display: flex;
 
  
      
-    /*--------------------------buttons----------------------*/
+    /*-------------------------------------buttons---------------------------------------------------*/
     
     .button {
      border-radius: 4px;
