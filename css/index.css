@@ -502,6 +502,7 @@ line-height: 19px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         margin-top: 9px;
+        display: block;
 
     }
 
@@ -524,8 +525,7 @@ line-height: 19px;
 }
 
  
- .footer-addres {
-     margin-top: 9px;}
+ 
 
 
 
